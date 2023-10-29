@@ -11,7 +11,7 @@ public class StudentGradeCalculator
         int totalMarks = 0;
         
         for (int i = 1; i <= no.ofSubjects; i++) {
-            System.out.print("Enter marks obtained in subject " + i + " (out of 100): ");
+            System.out.print("Enter your marks in subject " + i + " (out of 100): ");
             int marks = sc.nextInt();
             totalMarks += marks;
         }
