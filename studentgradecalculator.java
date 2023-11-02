@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StudentGradeCalculator 
+public class Studentgradecalculator 
 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -22,7 +22,7 @@ public class StudentGradeCalculator
         System.out.println("Average Percentage: " + averagePercentage + "%");
         String grade;
         if (averagePercentage >= 90) {
-            grade = "A+";
+            grade = "excellent";
         } else if (averagePercentage >= 80) {
             grade = "A";
         } else if (averagePercentage >= 70) {
